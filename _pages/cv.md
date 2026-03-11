@@ -1,64 +1,120 @@
 ---
 layout: archive
-title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<div class="cv">
+				
+        <h1>Curriculum Vitae of Yining Yuan</h1>
+        <address>
+        <strong>University of Bristol</strong><br>
+        Bristol<br>
+        United Kingdom<br>
+        <span class="obfuscate">yining.yuan@bristol.ac.uk</span>
+        </address>
+        <p style="text-align: center">
+          Current Computer Science Ph.D. student at the University of Bristol. Research interests are in multi-agent systems and AI, specifically interventions for building prosocial decision making agents in heterogeneous socio-technical systems.</p>
+			
+        <hr class="solid">
+        <h2>Education</h2>
+        <hr class="solid">
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+        <h3>Ph.D. Computer Science, University of Bristol, UK</h3>
+        <i class="dates">January 2024 - January 2028</i>
+        <ul class="publications-list">
+          <li>Project Title: Interventions for Building Prosocial Decision Making Agents in MAS.</li>
+        </ul>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+        <h3>M.Sc. Data Science (3+1 AMD Programme): Distinction, University of Bristol, UK</h3>
+        <i class="dates">September 2022 - September 2023</i>
+        <ul class="publications-list">
+          <li>Dissertation: Multi-Granular Evaluation of Diverse Counterfactual Explanations.</li>
+        </ul>
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+        <h3>B.Sc. Information Management and Information Systems, Dalian University of Technology, Dalian, China</h3>
+        <i class="dates">September 2019 - June 2023</i>
+        <ul class="publications-list">
+          <li>Overall grade: 89.5/100</li>
+          <li>Coursework includes: Business Analysis, System Analytics and Design, Organisation Studies.</li>
+        </ul>
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+        <hr class="solid">
+        <h3>Publications</h3>
+        <hr class="solid">
+
+        <p>February 2024. Multi-Granular Evaluation of Counterfactual Explanations. ICAART, Rome.</p>
+
+        <hr class="solid">
+        <h3>Research Presentations</h3>
+        <hr class="solid">
+
+        <p>April 2025. Social AI and Multi-Agent Systems at Bristol. CCAIS Seminars, Online.</p>
+
+        <p>March 2025. MAS for Tackling Social Dilemmas. AI UK, London.</p>
+
+                <hr class="solid">
+        <h2>Academic Projects</h2>
+        <hr class="solid">
+
+        <h3> Hybrid Sanctioning for Improved Social Norms Compliance</h3>
+        <i class="dates">May 2024 - January 2025</i>
+        <ul class="publications-list">
+          <li>Designed and implemented a hybrid sanctioning mechanism that combines centralised and decentralised approaches to enforce social norms in multi-agent systems.</li>
+          <li>Developed agent-based simulation models to evaluate norm compliance under various population densities.</li>
+          <li>Created formal mathematical frameworks to model norm compliance behaviour, resulting in demonstrably faster and more effective norm adoption compared to traditional sanctioning methods.</li>
+        </ul>
+
+        <h3>Multi-Granular Evaluation of Counterfactual Explanations</h3>
+        <i class="dates">May 2023 - October 2023</i>
+        <ul class="publications-list">
+          <li>Led comparative analysis of multiple explanation algorithms in the field of Explainable AI.</li>
+          <li>Identified research gaps and proposing innovative evaluation methodologies.</li>
+          <li>Published in an international conference and made findings accessible to non-technical audiences.</li>
+        </ul>
+
+                <hr class="solid">
+        <h2>Work Experience</h2>
+        <hr class="solid">
+
+        <h3>Ask-JGI Data Scientist, University of Bristol</h3>
+        <i class="dates">September 2025 - September 2026</i>
+        <ul class="publications-list">
+          <li>Collaborating with researchers from different disciplines, provide coding support.</li>
+          <li>Recommending suitable tools and methods for modelling, machine learning and statistics.</li>
+        </ul>
+
+        <h3>Product Support Intern, SAP, Dalian</h3>
+        <i class="dates">June 2022 - September 2022</i>
+        <ul class="publications-list">
+          <li>Developed an automatic email notification system in Python to improve team efficiency.</li>
+          <li>Provided back-end system testing and debugging for international customers.</li>
+          <li>Collaborated with global product support teams to resolve technical issues, demonstrating cross-cultural communication skills.</li>
+        </ul>
+
+        <h3>Remote Intern, World Association for Sustainable Development, London</h3>
+        <i class="dates">March 2022 - June 2022</i>
+        <ul class="publications-list">
+          <li>Conducted bibliographic work on knowledge management.</li>
+          <li>Performed detailed data entry and analysis in several different international projects.</li>
+          <li>Managed official LinkedIn and Facebook accounts, increasing average engagement metrics.</li>
+        </ul>
+
+        <hr class="solid">
+        <h2>Teaching Experience</h2>
+        <hr class="solid">
+
+        <h3>Teaching Assistant, Department of Computer Science, University of Bristol, UK</h3>
+        <i class="dates">January 2024 - April 2025</i>
+        <ul class="publications-list">
+          <li>Supported students across three teaching blocks in MSc Data Science modules.</li>
+          <li>Developed strong interpersonal skills through addressing diverse student needs and communicating complex concepts clearly.</li>
+          <li>Work collaboratively with fellow students in Microsoft Office Suite to mark and record grades.</li>
+        </ul>
+
+
+</div>
