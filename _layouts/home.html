@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main" class="home-layout">
+  <aside class="home-sidebar">
+    <div class="home-sidebar__inner">
+      {% if page.sidebar_image %}
+        <img class="home-sidebar__image" src="{{ page.sidebar_image | relative_url }}" alt="{{ page.sidebar_name | default: site.name }}">
+      {% endif %}
+
+      {% if page.sidebar_name %}
+        <h1 class="home-sidebar__name">{{ page.sidebar_name }}</h1>
+      {% endif %}
+
+      {% if page.sidebar_description %}
+        <p class="home-sidebar__description">{{ page.sidebar_description }}</p>
+      {% endif %}
+
+      <ul class="home-sidebar__meta">
+        {% if page.sidebar_email %}
+          <li><strong>Email</strong><a href="mailto:{{ page.sidebar_email }}">{{ page.sidebar_email }}</a></li>
+        {% endif %}
+        {% if page.sidebar_location %}
+          <li><strong>Location</strong><span>{{ page.sidebar_location }}</span></li>
+        {% endif %}
+        {% if page.sidebar_affiliation %}
+          <li><strong>Affiliation</strong><span>{{ page.sidebar_affiliation }}</span></li>
+        {% endif %}
+      </ul>
+
+      {% if page.sidebar_links %}
+        <ul class="home-sidebar__links">
+          {% for link in page.sidebar_links %}
+            <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </aside>
+
+  <article class="home-content">
+    {{ content }}
+  </article>
+</div>

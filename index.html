@@ -2,47 +2,54 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: home
+sidebar_image: /images/profile.jpg
+sidebar_name: Yining Yuan
+sidebar_description: Ph.D. student researching norm evolution in multi-agent systems.
+sidebar_location: Bristol, UK
+sidebar_affiliation: University of Bristol
+sidebar_links:
+  - label: GitHub
+    url: https://github.com/yining-yuan
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/yining-yuan-15352b234/
+  - label: University Profile
+    url: https://research-information.bris.ac.uk/en/persons/yining-yuan/
+  - label: ORCID
+    url: https://orcid.org/0009-0000-3093-5526
 ---
-<div id="main" role="main" class="home-layout">
-	{% include home-sidebar.html %}
+<section>
+	<h2>About</h2>
+	<p>
+		I am a Ph.D. student at the University of Bristol. I graduated with a BSc in Information Management and Systems in 2023 from Dalian University of Technology, and an MSc in Data Science in 2024 from the University of Bristol.
+	</p>
+	<p>
+		My work focuses on norm evolution in multi-agent systems, and I am also interested in multi-agent reinforcement learning, explainability, and ethical AI. I am associated with <a href="https://uob-colldyn.github.io/index">Collective Dynamics Lab</a> under the supervision of <a href="https://niravajmeri.github.io/">Dr. Nirav Ajmeri</a> and <a href="https://research-information.bris.ac.uk/en/persons/weiru-liu/">Prof. Weiru Liu</a>.
+	</p>
+	<p>
+		I also work at the <a href="https://www.bristol.ac.uk/golding/supporting-your-research/research-engineering/">Ask-JGI helpdesk</a>, supporting statistical modelling and data analysis for researchers across the University of Bristol.
+	</p>
+	<p>
+		See my <a href="{{ '/cv/' | relative_url }}">CV</a> for more details on my research.
+</section>
 
-	<article class="home-content">
-		<section>
-			<h2>About</h2>
-			<p>
-				I am a Ph.D. student at the University of Bristol. I graduated with a BSc in Information Management and Systems in 2023 from Dalian University of Technology, and an MSc in Data Science in 2024 from the University of Bristol.
-			</p>
-			<p>
-				My work focuses on norm evolution in multi-agent systems, and I am also interested in multi-agent reinforcement learning, explainability, and ethical AI. I am associated with <a href="https://uob-colldyn.github.io/index">Collective Dynamics Lab</a> under the supervision of <a href="https://niravajmeri.github.io/">Dr. Nirav Ajmeri</a> and <a href="https://research-information.bris.ac.uk/en/persons/weiru-liu/">Prof. Weiru Liu</a>.
-			</p>
-			<p>
-				I also work at the <a href="https://www.bristol.ac.uk/golding/supporting-your-research/research-engineering/">Ask-JGI helpdesk</a>, supporting statistical modelling and data analysis for researchers across the University of Bristol.
-			</p>
-			<p>
-				See my <a href="{{ '/cv/' | relative_url }}">CV</a> for more details on my research.
-			</p>
-		</section>
+<section class="home-news" id="news">
+	<h2>News</h2>
+	<h3 class="home-news__year">2026</h3>
+	<p>Updates coming soon.</p>
 
-		<section class="home-news" id="news">
-			<h2>News</h2>
-			<h3 class="home-news__year">2026</h3>
-			<p>Updates coming soon.</p>
+	<h3 class="home-news__year">2025</h3>
+	<ul class="publications-list">
+		<li>June: Participated in the Civic and Citizen-Centric AI Systems workshop held at the University of Amsterdam in Amsterdam, Netherlands. Proposed a project on long-term fairness under population dynamics.</li>
+		<li>April: Talk at Social AI and Multi-Agent Systems at Bristol: Towards Ethical Sociotechnical Systems. <a href="https://www.youtube.com/watch?v=n-DChjeb39w&list=PLWZ4Dd-bZXcGtL_ZoXjPGSliSslcpdaJg&index=13">YouTube video</a>.</li>
+		<li>March: Demonstrated at AI UK 2025 as a part of <a href="https://ai-uk.turing.ac.uk/exhibitions/">From theory to practice in collective AI systems</a> on norm enforcement in reinforcement learning agents.</li>
+		<li>March: Attended <a href="https://www.turing.ac.uk/events/uk-multi-agent-systems-symposium-2025-uk-mas">UK Multi-Agent Systems Symposium 2025 (UK-MAS)</a> at King's College London.</li>
+	</ul>
 
-			<h3 class="home-news__year">2025</h3>
-			<ul class="publications-list">
-				<li>June: Participated in the Civic and Citizen-Centric AI Systems workshop held at the University of Amsterdam in Amsterdam, Netherlands. Proposed a project on long-term fairness under population dynamics.</li>
-				<li>April: Talk at Social AI and Multi-Agent Systems at Bristol: Towards Ethical Sociotechnical Systems. <a href="https://www.youtube.com/watch?v=n-DChjeb39w&list=PLWZ4Dd-bZXcGtL_ZoXjPGSliSslcpdaJg&index=13">YouTube video</a>.</li>
-				<li>March: Demonstrated at AI UK 2025 as a part of <a href="https://ai-uk.turing.ac.uk/exhibitions/">From theory to practice in collective AI systems</a> on norm enforcement in reinforcement learning agents.</li>
-				<li>March: Attended <a href="https://www.turing.ac.uk/events/uk-multi-agent-systems-symposium-2025-uk-mas">UK Multi-Agent Systems Symposium 2025 (UK-MAS)</a> at King's College London.</li>
-			</ul>
-
-			<h3 class="home-news__year">2024</h3>
-			<ul class="publications-list">
-				<li>July: Attended the <a href="https://essai2024.di.uoa.gr/">2nd European Summer School on Artificial Intelligence, 21st Advanced Course on Artificial Intelligence</a>.</li>
-				<li>June: Participated in the Civic and Citizen-Centric AI Systems workshop held at the University of Southampton in Southampton, UK.</li>
-				<li>February: Presented the paper <a href="https://www.scitepress.org/Link.aspx?doi=10.5220/0012349900003636">Multi-Granular Evaluation of Diverse Counterfactual Explanations</a> at ICAART 2024 in Rome, Italy.</li>
-			</ul>
-		</section>
-	</article>
-</div>
+	<h3 class="home-news__year">2024</h3>
+	<ul class="publications-list">
+		<li>July: Attended the <a href="https://essai2024.di.uoa.gr/">2nd European Summer School on Artificial Intelligence, 21st Advanced Course on Artificial Intelligence</a>.</li>
+		<li>June: Participated in the Civic and Citizen-Centric AI Systems workshop held at the University of Southampton in Southampton, UK.</li>
+		<li>February: Presented the paper <a href="https://www.scitepress.org/Link.aspx?doi=10.5220/0012349900003636">Multi-Granular Evaluation of Diverse Counterfactual Explanations</a> at ICAART 2024 in Rome, Italy.</li>
+	</ul>
+</section>
